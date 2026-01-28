@@ -85,22 +85,9 @@ The decompiler shows this logic:
 (a*b*c == 420)
 ```
 
-These are three conditions that all must be true at the same time.
-The easiest way is to brute force small numbers or just experiment.
+These three conditions cannot be met even with brute forcing.
 
-One working solution is:
-
-```
-a = 4
-b = 5
-c = 11
-```
-
-You can enter them as:
-
-```
-4 5 11
-```
+Thus the only solution is to see the flag by decoding it.
 
 Then the program calls:
 
